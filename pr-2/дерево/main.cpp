@@ -20,6 +20,6 @@ void pythagorasTree ( float x, float y, float L, float angle, int levels )
 int main()
  {
      txCreateWindow(800,600);
-    pythagorasTree( 300, 500, 150, 90, 20 );
+    pythagorasTree( 300, 500, 100, 100, 10 );
 }
 

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1578909184 source:c:\users\public\documents\10 класс Ќ≈ ”ƒјЋя“№ ѕќ∆јЋ”…—“ј\÷арев\tsarev_777\pr-2\дерево\main.cpp
+	<iostream>
+	"TXLib.h"
+
+1578906495 c:\users\public\documents\10 класс Ќ≈ ”ƒјЋя“№ ѕќ∆јЋ”…—“ј\÷арев\tsarev_777\pr-2\дерево\txlib.h
+	<assert.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<process.h>
+	<signal.h>
+	<locale.h>
+	<time.h>
+	<float.h>
+	<math.h>
+	<map>
+	<vector>
+	<string>
+	<iostream>
+	<algorithm>
+	<exception>
+	<stdexcept>
+	<conio.h>
+	<windows.h>
+	<tlhelp32.h>
+	<shellapi.h>
+	<shlobj.h>
+	<crtdbg.h>
+
