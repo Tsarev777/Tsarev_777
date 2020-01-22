@@ -1,0 +1,61 @@
+7 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string Bu;
+getline(cin,Bu);
+int n=Bu.find("proga.exe");
+if (n != string::npos )
+cout <<"place" << n << endl;
+else cout << "nope";
+string text = Bu;
+text.erase (n);
+cout << text << endl;
+return 0;
+}
+
+8
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string Sato;
+getline(cin,Sato);
+int n=Sato.find("Winlock.exe");
+if (n != string::npos )
+cout << "place" << n << endl;
+else cout << "nope";
+string text = Sato;
+text.replace (n,n+10, "");
+cout << text << endl;
+return 0;
+}
+
+10 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string Sato;
+getline(cin,Sato);
+int n=Sato.find(" ");
+if (n != string::npos )
+cout << n << endl;
+else cout << "nope";
+string text = Sato;
+text.erase (n );
+cout << text << endl;
+Sato.replace (0,n+1, "");
+//cout « Sato « endl;
+string Sergey;
+Sergey=text+Sato;
+cout << Sergey << endl;
+return 0;
+}
