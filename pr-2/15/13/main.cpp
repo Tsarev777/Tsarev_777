@@ -18,11 +18,6 @@ string off ( string a )
 }
 
 
-
-
-
-
-
 int main()
 {
 
